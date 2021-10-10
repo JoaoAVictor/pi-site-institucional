@@ -7,7 +7,7 @@
 .header{
     height: 100px;
     background-color: rgb(0, 0, 0);
-    border: aquamarine 3px solid;
+    border: rgb(61, 224, 253) 3px solid;
 
 }
 
@@ -33,7 +33,7 @@
 }
 
 .header h1 {
-    color: aquamarine;
+    color: rgb(61, 224, 253);
 }
 
 .header ul {
@@ -54,4 +54,187 @@
 .navbar li a {
     text-decoration: none;
     color: goldenrod;
+}
+
+.banner {
+
+height: 563px;
+background-color: red;
+background-image: url(https://featuredcreature.com/wp-content/uploads/2012/11/tumblr_lxwvjoYZok1qm6msjo1_500.gif);
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.message {
+    margin-right: 250px;
+    width: 15%;
+    color:white;
+    font-size: 30px;
+    
+}
+
+.message span {
+    font-weight: bolder;
+}
+
+.proposito{
+    height: 450px;
+    background-color: #f5f5f5;
+}
+
+.proposito .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proposito .container .mvv div img {
+height: 100px;
+width: 100px;
+
+}
+
+.proposito .container .mvv div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proposito .container .mvv div p {
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.proposito .container .mvv {
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.proposito .container  h2 {
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(61, 224, 253);
+}
+
+.proposito .container .mvv  h3 {
+    color: rgb(61, 224, 253);
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 25px 0;
+}
+
+.footer {
+    height: 150px;
+    background-color: rgb(61, 224, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: white;
+    font-weight: bolder;
+}
+
+.banner .formLogin{
+    height: 400px;
+    width: 30%;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.banner .formLogin div{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.banner .formLogin div span{
+    color: rgb(61, 224, 253)
+}
+
+.banner .formLogin h2{
+    
+    color: rgb(61, 224, 253);
+
+}
+
+.banner .formLogin div input{
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.banner .formLogin button{
+    
+    background-color: rgb(61, 160, 253);
+    border-radius: 10px;
+    padding: 15px 25px;
+    
+}
+
+.banner .formCadastro{
+    height: 500px;
+    width: 30%;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.banner .formCadastro div{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.banner .formCadastro div span{
+    color: rgb(61, 224, 253)
+}
+
+.banner .formCadastro h2{
+    
+    color: rgb(61, 224, 253);
+
+}
+
+.banner .formCadastro div input{
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.banner .formCadastro button{
+    
+    background-color: rgb(61, 160, 253);
+    border-radius: 10px;
+    padding: 15px 25px;
+ 
 }
