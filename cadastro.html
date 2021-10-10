@@ -30,12 +30,16 @@
     
   <div>
 
-    <div class="banner">
+    <div class="bannerCadastro">
         <div class="formCadastro">
             <h2>Seja bem-vindo</h2>
             <div>
                 <span>Nome</span>
                 <input type="text" placeholder="Insira o nome completo">
+            </div>
+            <div>
+                <span>Data de Nascimento</span>
+                <input type="text" placeholder="yyyy-mm-dd">
             </div>
             <div>
                 <span>Genero</span>
@@ -46,6 +50,18 @@
                 </select>
             </div>
             <div>
+                <span>Pessoa</span>
+                <select name="pessoa" id="">
+                    <option value="">Escolha seu tipo</option>
+                    <option value="">Fisica</option>
+                    <option value="">Juridica</option>
+                </select>
+            </div>
+            <div>
+                <span>CPF/CNPJ</span>
+                <input type="text" placeholder="000.000.000-1">
+            </div>
+            <div>
                 <span>Telefone</span>
                 <input type="text" placeholder="(DDD)9999-9999">
             </div>
@@ -54,12 +70,16 @@
                 <input type="text" placeholder="Rua das ruas">
             </div>
             <div>
+                <span>Complemento</span>
+                <input type="text" placeholder="Casa/Apartamento">
+            </div>
+            <div>
                 <span>E-mail</span>
                 <input type="text" placeholder="Insira o e-mail para login">
             </div>
             <div>
                 <span>Senha</span>
-                <input type="text" placeholder="*********">
+                <input type="password" placeholder="*********">
             </div>
             <button>entrar</button>
         </div>
